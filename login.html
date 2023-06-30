@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <div class="upper-container" id="upper">
+        <div id="o1"><img src="images/Logo-Instagram.png" alt="" id="img1"></div>
+        <div id="oo2"> <input type="text" name="sss" id="input1" placeholder="Phone number, username or Email"> </div>
+        <div id="oo3"> <input type="password" id="password1" placeholder="Password"> </div>
+        <div id="check"><input type="checkbox" name="" >Save login info</div>
+        <div><button onclick="check()" id="button1">Log in</button></div>
+        <div><p id="o4">-------------------------- &nbsp;&nbsp; &nbsp;OR&nbsp;&nbsp; &nbsp;--------------------------</p></div>
+        <div id="log">Log in with Facebook</div>
+        <div><a href="">Forget password?</a></div>
+    </div>
+    <div class="lower-container" id="lower">
+        <div><p>Don't have an account? <span><a href="signup.html">Sign up</a></span></p></div>
+    </div>
+
+
+
+
+<div id="error">
+  <div class="wrong">
+  <p>Incorrect Username or password &nbsp;<span ><button onclick="ok2()">&times;</button></span></p>
+  </div>
+</div>
+<div id="success">
+  <div class="right">
+  <p>Successfully Loged In. &nbsp;<span id="errorbutton" ><button onclick="ok1()">Ok</button></span></p>
+  </div>
+</div>
+<script src="insta.js"></script>
+</html>
